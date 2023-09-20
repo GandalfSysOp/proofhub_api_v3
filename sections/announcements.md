@@ -14,7 +14,7 @@ Announcements
 Get all announcements
 ----------------
 
-* `GET v3/announcements` will return all announcements in an account.
+* `GET v4/announcements` will return all announcements in an account.
 
 ```json
 [
@@ -81,7 +81,7 @@ Get all announcements
 Get announcement
 ----------------
 
-* `GET v3/announcements/3628560` will return the specified request form.
+* `GET v4/announcements/3628560` will return the specified request form.
 
 ```json
   {
@@ -117,7 +117,7 @@ Get announcement
 Create announcement
 ----------------
 
-* `POST v3/announcements` will create a new announcement.
+* `POST v4/announcements` will create a new announcement.
 
 ```json
     {
@@ -136,7 +136,7 @@ Create announcement
 Update announcement
 ----------------
 
-* `PUT v3/announcement/3628560` will update the announcement.
+* `PUT v4/announcement/3628560` will update the announcement.
 
 ```json
     {
@@ -149,7 +149,7 @@ Update announcement
 Delete announcement
 ----------------
 
-* `DELETE v3/announcement/3628560` will delete the announcement specified.
+* `DELETE v4/announcement/3628560` will delete the announcement specified.
 
 `204 No Content` will be returned if the record is deleted. `403 Forbidden` will be returned in case of invalid access.
 
@@ -157,7 +157,7 @@ Delete announcement
 Get all comments
 ----------------
 
-* `GET v3/announcements/3628560/comments` will return all the comments of specified announcement.
+* `GET v4/announcements/3628560/comments` will return all the comments of specified announcement.
 
 ```json
 [
@@ -235,7 +235,7 @@ Get all comments
 Get comment
 ----------------
 
-* `GET v3/announcements/3628560/comments/4475533` will return the specified comment.
+* `GET v4/announcements/3628560/comments/4475533` will return the specified comment.
 
 ```json
 {
@@ -253,7 +253,7 @@ Get comment
 Create comment
 ----------------
 
-* `POST v3/announcements/3628560/comments/4475533` will create a new comment in the specified announcement from the parameters passed.
+* `POST v4/announcements/3628560/comments/4475533` will create a new comment in the specified announcement from the parameters passed.
 
 ```json
 {
@@ -266,7 +266,7 @@ Create comment
 Update comment
 ----------------
 
-* `PUT v3/announcements/3628560/comments/4475533` will update the announcement comment from the parameters passed.
+* `PUT v4/announcements/3628560/comments/4475533` will update the announcement comment from the parameters passed.
 
 ```json
 {
@@ -280,7 +280,7 @@ Update comment
 Delete comment
 ----------------
 
-* `DELETE v3/announcements/3628560/comments/4475533` will delete the announcement comment.
+* `DELETE v4/announcements/3628560/comments/4475533` will delete the announcement comment.
 
 204 No Content will be returned if the record is deleted. 403 Forbidden will be returned in case of invalid access.
 
